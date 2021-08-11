@@ -1,0 +1,142 @@
+
+body{
+     margin: 0;
+      background-color: #f0f2f5;
+      line-height: 1.34;
+}
+
+.flex-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 130px;        
+            margin-right:50px ; 
+            margin-left: 20px;   
+}
+.right-side{
+    padding-right: 60px;
+}
+    form{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            height: 333px;
+            width: 390px;
+            background: #fff;
+            font-size: 18px;
+            box-shadow:  0 8px 16px rgb(0 0 0 / 10%);
+            text-align: center;
+            padding-top: 15px;
+    }
+
+    .input-text{
+                width: 330px;
+                font-size: 18px;
+                color: #1d2129;
+                border: 1px solid #dddfe2;
+                border-radius: 6px;
+                height: 22px;
+                line-height: 16px;
+                font-size: 18px;
+                padding: 14px 16px;
+                margin-bottom:12px ;
+                margin-left: 16px;
+                margin-right: 16px;
+                text-align: right;
+                outline-color: #1877f2;
+    }
+      
+        input[type="text"]:focus{
+                    opacity: 0.5;
+               }
+
+        input[type="password"]:focus{
+                opacity: 0.5;
+            }
+
+
+    .login{
+            background-color: #1877f2;
+            color: #fff;
+            width: 360px;
+            border: none;
+            border-radius: 6px;
+            font-size: 21px;
+            line-height: 48px;
+            margin-bottom:14px ;
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-top: 5px;
+            padding: 0px 16px;
+            cursor: pointer;
+            font-weight: bold;
+    }
+
+    .link{
+            color: #1877f2;
+            font-size: 15px;
+            font-weight: 500;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(209, 204, 204);
+        } 
+
+
+    a{
+        font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+       
+    }
+  
+    .signup{
+            background-color: #42b72a;
+            color: #fff;
+            border: none;
+            width: 140px;
+            border-radius: 6px;
+            font-size: 18px;
+            line-height: 48px;
+            cursor: pointer;
+            margin-top: 25px;
+            padding: 0px 16px;
+            font-weight: bold;
+        }
+
+    span{
+          padding-right: 50px;
+          font-size: 18px;
+       }
+
+    .link2{
+          color: black;    
+         }
+
+    
+    p{
+        text-align: right;
+       }
+
+  
+
+    div{
+        direction: rtl;
+        width: 500px;
+        margin-right: 20px;
+      
+       
+    }
+    .image{
+        width: 300px;
+        margin-top: 50px;
+        margin-bottom: -50px;
+       
+    }
+
+   
+    .parg{
+       padding-right: 50px;
+        font-size: 28px; 
+      
+    }
+    
